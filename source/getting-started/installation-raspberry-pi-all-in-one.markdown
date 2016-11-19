@@ -90,4 +90,4 @@ Please note that if you are using any components for Home Assistant that would u
 
 ### {% linkable_title WinSCP %}
 
-If you are Windows users who is using [WinSCP](https://winscp.net/), please note that after running the installer, you will need to modify settings allowing you to "switch users" to edit your configuration files. The needed change within WinSCP is: **Environment** -> **SCP/Shell** -> **Shell** and set it to `sudo su -`.
+If you are Windows users who is using [WinSCP](https://winscp.net/), please note that after running the installer, you will need to modify settings allowing you to "switch users" to edit your configuration files. The needed change within WinSCP is: **Environment** -> **SCP/Shell** -> **Shell** and set it to `sudo su -`.  As the /home/hass/.homeassistant directory is 'hidden', once WinSCP opens use **Options** -> **Preferences** and in the **Panels** option enable show hidden files.
